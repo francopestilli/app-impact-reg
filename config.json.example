@@ -1,0 +1,16 @@
+{
+  "fixed_nifti": "fixed.nii.gz",
+  "fixed_ome_zarr": "",
+  "moving_nifti": "moving.nii.gz",
+  "moving_ome_zarr": "",
+  "fixed_mask_nifti": "",
+  "fixed_mask_ome_zarr": "",
+  "moving_mask_nifti": "",
+  "moving_mask_ome_zarr": "",
+  "engine": "fireants",
+  "preset_override": "",
+  "gpu": true,
+  "require_cuda": false,
+  "fields_only": false,
+  "extra_set": ""
+}

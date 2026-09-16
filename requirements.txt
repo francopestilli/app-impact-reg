@@ -1,0 +1,19 @@
+# /opt/venv-default (FireANTs, ConvexAdam)
+# torch==2.12.* --extra-index-url https://download.pytorch.org/whl/cu129
+# fireants==1.5.0 --no-deps (its own simpleitk==2.2.1 pin has no cp312
+# wheel; installed separately with modern deps instead)
+# hydra-core matplotlib nibabel pandas pytest scikit-image tqdm
+# itk-impact==0.1.2
+#
+# /opt/venv-elastix (elastix)
+# torch==2.8.* --extra-index-url https://download.pytorch.org/whl/cu128
+#
+# shared by both venvs:
+impact-reg-konfai
+konfai[omezarr,monitoring]
+ngff-zarr[cli]
+simpleitk>=2.4
+scipy
+h5py
+fsspec
+aiohttp
